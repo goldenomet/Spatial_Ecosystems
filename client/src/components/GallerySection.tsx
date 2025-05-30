@@ -15,7 +15,7 @@ const GallerySection: React.FC = () => {
       alt: "Environmental assessment at industrial site"
     },
     {
-      src: "src/assets/SPEC 2 logo.jpg",
+      src: "src/assets/SPEC 2 logo.png",
       alt: "Consultants analyzing environmental data"
     }
   ];
