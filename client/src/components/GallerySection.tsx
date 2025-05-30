@@ -7,7 +7,7 @@ const GallerySection: React.FC = () => {
       alt: "Safety training session"
     },
     {
-      src: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80",
+      src: "src/assets/download.jpg",
       alt: "HSE professionals in meeting"
     },
     {
