@@ -3,7 +3,7 @@ import React from "react";
 const GallerySection: React.FC = () => {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80",
+      src: "src/assets/Blog.jpeg",
       alt: "Safety training session"
     },
     {
