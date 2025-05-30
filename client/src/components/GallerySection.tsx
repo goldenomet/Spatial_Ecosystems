@@ -15,7 +15,7 @@ const GallerySection: React.FC = () => {
       alt: "Environmental assessment at industrial site"
     },
     {
-      src: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80",
+      src: "src/assets/SPEC 2 logo.png",
       alt: "Consultants analyzing environmental data"
     }
   ];
