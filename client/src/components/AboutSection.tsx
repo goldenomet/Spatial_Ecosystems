@@ -45,7 +45,7 @@ const AboutSection: React.FC = () => {
           
           <div className="order-1 md:order-2 relative">
             <img 
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
+              src="src/assets/Blog.jpeg" 
               alt="Environmental management consulting team" 
               className="rounded-xl shadow-lg w-full h-auto object-cover z-10 relative"
             />
