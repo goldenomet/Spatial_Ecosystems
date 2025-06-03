@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
+import { supabase } from "@/lib/supabase";
 import { 
   MapPin, 
   Phone, 
@@ -54,7 +54,12 @@ const ContactSection: React.FC = () => {
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
     try {
-      await apiRequest("POST", "/api/contact", data);
+      const { error } = await supabase
+        .from('contact_submissions')
+        .insert([data]);
+
+      if (error) throw error;
+
       toast({
         title: "Message sent successfully!",
         description: "We will get back to you as soon as possible.",
